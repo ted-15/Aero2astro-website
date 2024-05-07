@@ -1,0 +1,28 @@
+.ContactCard {
+    font-family: Oswald;
+    width: 70em;
+    border: 1px solid #fff;
+    padding: 10px 5em;
+    margin-left: 15%;
+    margin: 0px auto;
+    border-radius: 10px;
+    font-family: Fira Sans;
+    color: #fff;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.227);
+}
+
+
+/* Credit to https://bootsnipp.com/snippets/bxDBA */
+@media (max-width: 576px) {
+    .ContactCard {
+        padding: 10px 1em;
+        width: auto;
+        margin: 1%;
+
+    }
+}
